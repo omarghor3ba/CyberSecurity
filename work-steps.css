@@ -1,0 +1,15 @@
+body{
+    text-align: center;
+ 
+    color: white;
+    background-size: cover;
+
+    
+}
+
+
+h1::after{
+
+        text-shadow: 6px,6px,6px black;
+    
+}
