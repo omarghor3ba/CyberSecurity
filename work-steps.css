@@ -38,7 +38,12 @@ h1::after{
 
         background-size: 425px  689px;
     }
+    h6#myh1 {
+        font-size: 2em !important; 
+        margin-right: 200px;
+    }
 }
+
 
 @media (max-width: 376px) {
     body {
@@ -49,10 +54,17 @@ h1::after{
         font-size: 2em !important; 
         margin-right: 100px;
     }
-    .main-nav a {
-        font-size: 12px;
+    .main-nav{
+
+        font-size: 1px !important;
+        
+    }
+    #myimg{
+
+        size: 1px;
     }
 }
+
 
 @media (max-width: 321px) {
     body {
