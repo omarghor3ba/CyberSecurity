@@ -14,19 +14,53 @@ h1::after{
     
 }
 
-@media (max-width: 320px ) {
+@media (max-width: 321px) {
+    body {
+        background-size: 320px 689px;
+    }
+    ul.main-nav {
+        font-size: 0.8em; 
+    }
+    .header {
+        font-size: 1em; 
+    }
+    h1#myh1 {
+        font-size: 1em;
+    }
+}
+
+
+@media (max-width: 1025px){
 
     body{
 
-    
-        background-size:320px  689px  ;
-    }
-    ul.main-nav{
-
-        font-size: 0.000000000000000001;
-    }
-    h1{
-
-        font-size: 0.1em;
+        background-size: 1024px  689px;
     }
 }
+
+
+@media (max-width:769px){
+
+    body{
+        background-size: 768px 689px;
+    }
+}
+
+
+@media (max-width:426px) {
+    
+    body{
+
+        background-size: 425px  689px;
+    }
+}
+
+
+@media (max-width: 376px) {
+
+    body{
+
+        background-size: 375px  689px;
+    }
+}
+
